@@ -8,8 +8,8 @@ Objective:
 - Understand and practice using different data types in C#.
 
 Main Tasks:
-1. Create an 'integer' variable and assign it a whole number.
-2. Create a 'double' variable and assign it a decimal number.
+1. Create an 'integer' variable and assign it a whole number.     int
+2. Create a 'double' variable and assign it a decimal number.     double
 3. Create a 'boolean' variable and assign it either true or false.
 4. Output a single message that includes all three of your variables.
    (e.g., "There are 27 days until Christmas", "Avatar scored 7.8 on IMDb", "Door locked: false").
@@ -44,7 +44,7 @@ namespace ProgrammingExercisesIST
         static void Main(string[] args)
         {
             // Your code goes below here
-
+            
         }
     }
 }
