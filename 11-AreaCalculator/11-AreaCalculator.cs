@@ -50,8 +50,10 @@ namespace ProgrammingExercisesIST
         static void Main(string[] args)
         {
             // Your code goes below here
-
-        }
+            // Area of a circle
+            if (choice == "1")
+                
+                Console.WriteLine
     }
 }
 
