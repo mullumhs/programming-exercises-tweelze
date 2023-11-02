@@ -13,7 +13,11 @@ namespace _36_Testing
         static void Main(string[] args)
         {
             // Write your code here
-
+            
+            Console.WriteLine("Enter your name here");
+            string calvin = Console.ReadLine();
+            
+            Console.WriteLine($"Hey Master {calvin}");
 
 
 
