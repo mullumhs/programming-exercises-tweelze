@@ -34,11 +34,22 @@ namespace ProgrammingExercisesIST
         static void Main(string[] args)
         {
             // Call the methods here
-            
+            MyMethod();
+            wait();
         }
 
-        // Write your methods here
+        private static void MyMethod()
+        {
+            // print message
+            Console.WriteLine("Luke is a hood ornament");
+        }
 
+        static void wait()
+        {
+            Console.ReadLine();
+        }
+        // Write your methods here
+      
     }
 }
 
