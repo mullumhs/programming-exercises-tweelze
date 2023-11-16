@@ -69,7 +69,7 @@ namespace ProgrammingExercisesIST
 
             // Write your code here
 
-            
+
 
             // "Exit" method is called here
             Exit();
@@ -77,8 +77,10 @@ namespace ProgrammingExercisesIST
 
         // Create your functions here
 
-
-
+        static int MultiplyNumbers(int num1, int num2)
+        {
+            return num1 * num2;
+        }
         // This is a function I have written to get a number from the user
         private static int GetNumber()
         {
