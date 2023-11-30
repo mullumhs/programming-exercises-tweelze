@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.InteropServices;
 
 /*
 ===============================================================================
@@ -53,6 +54,15 @@ namespace ProgrammingExercisesIST
             int mark = Convert.ToInt32(Console.ReadLine());
 
             // Your code goes below here
+            Console.Write("Whats ya name: ");
+            string name = Console.ReadLine();
+            Console.Write("What is your age: ");
+            int age = Convert.ToInt32(Console.ReadLine());
+            if (age > 18)
+            {
+                Console.WriteLine($"{name}, you can vote.");
+            }
+
 
         }
     }
