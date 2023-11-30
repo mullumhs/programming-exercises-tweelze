@@ -37,13 +37,12 @@ namespace ProgrammingExercisesIST
         {
             // Your code goes below here
             string name = "China";
-            string double = "1.379";
-            string integer = "2016";
-            Console.WriteLine($"As of the year" + integer "the population of" + name "was" + double "billion.");
+            double pop = 1.379;
+            int year = 2016;
+            Console.WriteLine($"As of the year " + year + " the population of " + name + " was " + pop + " billion.");
             Console.ReadLine();
 
             // Do not edit below this line
-            Console.WriteLine($"As of {year} the population of {country} was {population} billion.");
             Console.ReadLine();
         }
     }
