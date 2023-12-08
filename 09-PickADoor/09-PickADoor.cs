@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics.Eventing.Reader;
 
 /*
 ===============================================================================
@@ -44,12 +45,26 @@ namespace ProgrammingExercisesIST
         {
             // Ask the user to pick a door
             Console.WriteLine("Pick a Door: 1, 2 or 3");
+            string choice = Console.ReadLine();
+            if (choice == "1")
+            {
+                Console.WriteLine("you wona a free twitsal pass");
+            }
+            else if (choice == "2")
+            {
+                Console.WriteLine("u lost");
+            }
 
-            // Your code goes below here
-
-        }
+            else if (choice == "3")
+            {
+                Console.WriteLine("u lost");
+            }
+                    Console.ReadLine();
+                }
+            
+                }
     }
-}
+
 
 /*
 ===============================================================================
